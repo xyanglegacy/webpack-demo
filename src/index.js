@@ -1,6 +1,16 @@
-import nav from './nav';
-import {top, bottom} from './footer';
-import makeButton from './botton';
-import { makeColorSytle } from './button-styles';
+import nav from "./nav";
+import { top, bottom } from "./footer";
+import makeButton from "./botton";
+import { makeColorSytle } from "./button-styles";
 
-console.log(nav(), top, bottom, makeButton('THIS IS A BUTTON'), makeColorSytle('cyan'));
+const button = makeButton("YAH!");
+document.body.appendChild(button);
+
+// console.log(
+//   nav(),
+//   top,
+//   bottom,
+//   button,
+//   // makeButton("THIS IS A BUTTON"),
+//   makeColorSytle("cyan")
+// );

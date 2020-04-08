@@ -4,9 +4,10 @@
   "description": "webpack demo",
   "main": "index.js",
   "scripts": {
+    "webpack-dev-server": "webpack-dev-server",
     "webpack": "webpack",
     "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
-    "dev": "npm run webpack -- --env.mode development --watch",
+    "dev": "npm run webpack-dev-server -- --env.mode development --watch",
     "prod": "npm run webpack -- --env.mode production",
     "prod:debug": "npm run debug -- --env.mode production",
     "dev:debug": "npm run debug -- --env.mode development",
@@ -36,5 +37,8 @@
     "webpack-cli": "^3.3.11",
     "webpack-node-externals": "^1.7.2",
     "workbox-webpack-plugin": "^5.1.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.10.3"
   }
 }
