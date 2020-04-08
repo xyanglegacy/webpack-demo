@@ -39,6 +39,7 @@
     "workbox-webpack-plugin": "^5.1.2"
   },
   "devDependencies": {
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
   }
 }
