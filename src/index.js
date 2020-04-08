@@ -4,6 +4,7 @@ import makeButton from "./botton";
 import { makeColorSytle } from "./button-styles";
 
 const button = makeButton("YAH!");
+button.style = makeColorSytle("peru");
 document.body.appendChild(button);
 
 // console.log(
