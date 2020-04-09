@@ -1,7 +1,10 @@
 import nav from "./nav";
 import { footer } from "./footer";
-import makeButton from "./botton";
+import makeButton from "./button";
 import { makeColorSytle } from "./button-styles";
+import css from "./footer.css";
+import buttonStyle from "./button.css";
+// import "./footer.css";
 
 const button = makeButton("YAH!");
 button.style = makeColorSytle("peru");

@@ -2,7 +2,7 @@
 // const bottom = 'bottom';
 // import css from "./footer.css";
 // console.log("HELLO: ", css);
-import "./footer.css";
+
 import { peru, azure } from "./button-styles";
 
 const top = document.createElement("div");
