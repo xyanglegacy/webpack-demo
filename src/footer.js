@@ -1,5 +1,7 @@
 // const top = 'top';
 // const bottom = 'bottom';
+// import css from "./footer.css";
+// console.log("HELLO: ", css);
 import "./footer.css";
 import { peru, azure } from "./button-styles";
 
@@ -11,7 +13,7 @@ const bottom = document.createElement("div");
 bottom.innerText = "Bottom footer";
 bottom.style = azure;
 
-const footer = document.createElement("foot");
+const footer = document.createElement("footer");
 footer.appendChild(top);
 footer.appendChild(bottom);
 
