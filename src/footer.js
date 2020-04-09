@@ -1,6 +1,6 @@
 // const top = 'top';
 // const bottom = 'bottom';
-
+import "./footer.css";
 import { peru, azure } from "./button-styles";
 
 const top = document.createElement("div");
