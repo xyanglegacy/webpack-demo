@@ -8,7 +8,6 @@ import logoUrl from "./logo-on-dark-bg.jpg";
 import css from "./footer.css";
 import buttonStyle from "./button.css";
 // import "./footer.css";
-import Foo from "./foo.ts";
 
 const button = makeButton("YAH!");
 button.style = makeColorSytle("peru");
