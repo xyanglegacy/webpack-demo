@@ -11,7 +11,7 @@ const bottom = document.createElement("div");
 bottom.innerText = "Bottom footer";
 bottom.style = azure;
 
-const footer = document.createElement("foot");
+const footer = document.createElement("footer");
 footer.appendChild(top);
 footer.appendChild(bottom);
 
