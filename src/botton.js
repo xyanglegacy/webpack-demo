@@ -2,4 +2,5 @@ const makeButton = buttonName => {
   return `Button: ${buttonName}`;
 }
 
-module.exports = makeButton;
+// module.exports = makeButton;
+export default makeButton;
