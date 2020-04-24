@@ -1,7 +1,8 @@
 const peru = "color: peru;";
 const azure = "color: azure;";
-const makeColorSytle = (color) => `color: ${color};`;
+const makeColorStyle = (color) => `color: ${color};`;
 
 exports.peru = peru;
 exports.azure = azure;
-exports.makeColorSytle = makeColorSytle;
+exports.makeColorStyle = makeColorStyle;
+// export { peru, azure, makeColorStyle };
