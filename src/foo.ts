@@ -1,6 +1,6 @@
 export default class Foo {
-  public bar;
-  construction() {
+  public bar: String;
+  constructor() {
     this.bar = "hi";
   }
 }
