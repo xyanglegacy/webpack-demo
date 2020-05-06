@@ -2,7 +2,11 @@ const peru = "color: peru;";
 const azure = "color: azure;";
 const makeColorStyle = (color) => `color: ${color};`;
 
-exports.peru = peru;
-exports.azure = azure;
-exports.makeColorStyle = makeColorStyle;
-// export { peru, azure, makeColorStyle };
+
+// commonjs
+// exports.peru = peru;
+// exports.azure = azure;
+// exports.makeColorStyle = makeColorStyle;
+
+// es6
+export { peru, azure, makeColorStyle };
