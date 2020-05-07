@@ -1,7 +1,8 @@
 // const top = 'top';
 // const bottom = 'bottom';
-// import css from "./footer.css";
-// console.log("HELLO: ", css);
+//
+import css from "./footer.css";
+console.log("HELLO: ", css);
 
 import { peru, azure } from "./button-styles";
 
