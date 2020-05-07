@@ -1,7 +1,7 @@
 import nav from "./nav";
 // 3rd
-// import { footer } from "./footer";
-const getFooter = () => import("./footer");
+import { footer } from "./footer";
+// const getFooter = () => import("./footer");
 import makeButton from "./button";
 import { makeColorSytle } from "./button-styles";
 import makeImage from "./image";
@@ -16,20 +16,20 @@ button.style = makeColorSytle("peru");
 document.body.appendChild(button);
 
 // 3rd
-button.addEventListener("click", (e) => {
-  getFooter().then((footerModule) => {
-    document.body.appendChild(footerModule.footer);
-  });
-});
+//button.addEventListener("click", (e) => {
+//  getFooter().then((footerModule) => {
+//    document.body.appendChild(footerModule.footer);
+//  });
+//});
 
 // 2nd
 // naive way. still loading the code.
-// button.addEventListener("click", (e) => {
-//   document.body.appendChild(footer);
-// });
+//button.addEventListener("click", (e) => {
+//  document.body.appendChild(footer);
+//});
 
 // 1st
-// document.body.appendChild(footer);
+document.body.appendChild(footer);
 
 const image = makeImage(logoUrl);
 document.body.appendChild(image);
